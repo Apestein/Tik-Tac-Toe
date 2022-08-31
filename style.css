@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+body {
+    background-color: black;
+}
+main {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+main>div {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    background-color: white;
+}
